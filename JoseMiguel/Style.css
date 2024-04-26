@@ -1,0 +1,46 @@
+/* 
+.Parrafo{
+    font-size: 20px;color: blue;
+
+}
+body{
+    background-color: rgb(157, 100, 210);
+}
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.FormDatos{
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+
+    border-radius: 20px;
+    margin-top: 100px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.inputs{
+    /*Hace la altura de la pagina de texto*/
+    padding: 5px;
+    /*Hace lo ancho de la pagina de texto*/
+    width: 400px;
+    /*Le pone bordes en la pagina en la parte de texto*/
+    border-radius: 8px;
+    /*Da espacios en la pagina */
+    margin-bottom: 20px;
+    /***/
+    background-color: rgb(248, 245, 245);
+    /***/
+    border: 2px solid rgb(0, 0, 0);
+}
+.enviar{
+    padding: 5px;
+    margin-left: 160px;
+    border-radius: 8px;
+    background-color: rgb(237, 232, 232);   
+}
+body{
+
+}
