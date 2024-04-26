@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <a href="INICIO.html">INICIO</a>
+    <a href="NOSOTROS.html">NOSOTROS</a>
+    <a href="SERVICIOS.html">SERVICIOS</a>
+    <a href="REGISTRO.html">REGISTRO</a>
+    <a href="CONTACTO.html">CONTACTO</a>
+    <h1>CONTACTO</h1>
+    <!--
+    <table border="1">
+        <tr>
+            <td><h1><a href="INICIO.html">INICIO</a></h1></td>
+            <td><h1><a href="NOSOTROS.html">NOSOTROS</a></h1></td>
+            <td><h1><a href="SERVICIOS.html">SERVICIOS</a></h1></td>
+            <td><h1><a href="REGISTRO.html">REGISTRO</a></h1></td>
+            <td><h1><a href="CONTACTO.html">CONTACTO</a></h1></td>
+        </tr>
+    </table> 
+    -->
+    <!--
+    <nav>
+        <center>  
+        <a href="INICIO.html">INICIO</a>
+        <a href="NOSOTROS.html">NOSOTROS</a>
+        <a href="SERVICIOS.html">SERVICIOS</a>
+        <a href="REGISTRO.html">REGISTRO</a>
+        <a href="CONTACTO.html">CONTACTO</a>
+        </center>
+    </nav>
+    -->
+    <form class="FormDatos" action="RESULTADO.html" method="post" id="Formulario">
+        <h1 class="Titulo">PAGINA CONTACTO</h1>
+
+        <input class="inputs" type="text" name="nom" id="nom" placeholder="Nombre">
+
+        <input class="inputs" type="email" name="email" id="email" placeholder="Email">
+
+        <input class="inputs" type="tel" pattern="[0-9]{10}" maxlength="10" name="fecha" id="fecha" placeholder="Telefono" >
+
+        <textarea class="inputs" name="texto" id="texto" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+        <input class="enviar" type="submit"  name="Entregar" id="Entregar" value="Entregar">
+    </form>
+</body>
+</html>
